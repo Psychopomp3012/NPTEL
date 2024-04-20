@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/NPTEL/static/css/main.0336e218.css",
+    "main.js": "/NPTEL/static/js/main.a10a03bd.js",
+    "static/media/camp.png": "/NPTEL/static/media/camp.a18d09ce1d567ac897b3.png",
+    "index.html": "/NPTEL/index.html",
+    "main.0336e218.css.map": "/NPTEL/static/css/main.0336e218.css.map",
+    "main.a10a03bd.js.map": "/NPTEL/static/js/main.a10a03bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0336e218.css",
+    "static/js/main.a10a03bd.js"
+  ]
+}
