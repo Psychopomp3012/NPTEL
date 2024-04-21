@@ -1,8 +1,16 @@
 body {
     display: flex;
     justify-content: center;
-    
-    background: url('Resources/camp.png');
+    /* background: lightblue url('Resources/camp.png') no-repeat fixed center; */
+}
+
+.backgroundImage {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    left: 0;
+    top: 0;
 }
 
 .score {
@@ -27,9 +35,10 @@ body {
     font-size: 24px;
     border: 3px solid black;
     padding: 10px 20px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 20px;
     max-width: 600px;
     border-radius: 10px;
+    z-index: 1;
 }
 
 .question {
@@ -54,7 +63,6 @@ body {
 .option2:hover,
 .option3:hover,
 .option4:hover {
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-name: optionColour;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
@@ -95,5 +103,32 @@ body {
 
     to {
         background-color: rgb(239, 196, 115);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .questionBlock {
+        font-size: 20px;
+    }
+    .score {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .questionBlock {
+        font-size: 18px;
+    }
+    .score {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .questionBlock {
+        font-size: 10px;
+    }
+    .score {
+        font-size: 15px;
     }
 }

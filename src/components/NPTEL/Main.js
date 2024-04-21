@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import QuestionBlock from "./QuestionBlock.js";
 import QuestionData from "./QuestionData.js";
+import RandomBackgroundComponent from "./RandomBackgroundComponent.js";
 
 const Main = () => {
 
@@ -19,12 +20,13 @@ const Main = () => {
 
     return (
         <div className="wrapper">
-            <div className="score">Score: {score}</div>
+            <RandomBackgroundComponent/>
+            <div className="score">Score: {score} / 120</div>
             {
             shuffledQuestions.map((eachQuestion, index) => (
                 <QuestionBlock 
                     key = { index }
-                    question={ eachQuestion["question"] }
+                    question={ (index + 1) + ". " + eachQuestion["question"] }
                     a = { eachQuestion["a"] }
                     b = { eachQuestion["b"] }
                     c = { eachQuestion["c"] }
