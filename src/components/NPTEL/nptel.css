@@ -106,6 +106,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
     .questionBlock {
         font-size: 20px;
@@ -115,20 +116,31 @@ body {
     }
 }
 
+=======
+>>>>>>> 7fc54fafb5f2878c0ae593f177b359a331cd18dd
 @media screen and (max-width: 420px) {
     .questionBlock {
         font-size: 18px;
     }
+<<<<<<< HEAD
     .score {
         font-size: 18px;
     }
+=======
+>>>>>>> 7fc54fafb5f2878c0ae593f177b359a331cd18dd
 }
 
 @media screen and (max-width: 350px) {
     .questionBlock {
+<<<<<<< HEAD
         font-size: 10px;
     }
     .score {
         font-size: 15px;
     }
 }
+=======
+        font-size: 15px;
+    }
+}
+>>>>>>> 7fc54fafb5f2878c0ae593f177b359a331cd18dd
