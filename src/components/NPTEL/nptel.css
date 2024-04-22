@@ -59,10 +59,7 @@ body {
     cursor: pointer;
 }
 
-.option1:hover,
-.option2:hover,
-.option3:hover,
-.option4:hover {
+.hoverAnimation:hover {
     animation-name: optionColour;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;

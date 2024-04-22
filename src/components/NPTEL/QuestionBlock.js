@@ -23,6 +23,11 @@ const QuestionBlock = (props) => {
         return "";
     };
 
+    const gethoverAnimation = () => {
+        if (alreadyClicked) return "";
+        return "hoverAnimation";
+    }
+
     const onClickText = () => {
         if (alreadyClicked)
             return (clickedOption === props.correctAnswer) ? "correct" : "incorrect";
@@ -36,10 +41,10 @@ const QuestionBlock = (props) => {
             </div>
             
             <div className="optionSection">
-                <div className={`option1 ${getOptionColourClass("a")}`} onClick={() => { handleOptionClick("a") }}>a. {props.a}</div>
-                <div className={`option1 ${getOptionColourClass("b")}`} onClick={() => { handleOptionClick("b") }}>b. {props.b}</div>
-                <div className={`option1 ${getOptionColourClass("c")}`} onClick={() => { handleOptionClick("c") }}>c. {props.c}</div>
-                <div className={`option1 ${getOptionColourClass("d")}`} onClick={() => { handleOptionClick("d") }}>d. {props.d}</div>
+                <div className={`option1 ${getOptionColourClass("a")} ${ gethoverAnimation() }`} onClick={() => { handleOptionClick("a") }}>a. {props.a}</div>
+                <div className={`option1 ${getOptionColourClass("b")} ${ gethoverAnimation() }`} onClick={() => { handleOptionClick("b") }}>b. {props.b}</div>
+                <div className={`option1 ${getOptionColourClass("c")} ${ gethoverAnimation() }`} onClick={() => { handleOptionClick("c") }}>c. {props.c}</div>
+                <div className={`option1 ${getOptionColourClass("d")} ${ gethoverAnimation() }`} onClick={() => { handleOptionClick("d") }}>d. {props.d}</div>
             </div>
 
             <div className={`onClickText ${onClickText()}`}>
