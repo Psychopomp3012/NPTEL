@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/NPTEL/static/css/main.b096c5b7.css",
-    "main.js": "/NPTEL/static/js/main.f66d2fe8.js",
+    "main.js": "/NPTEL/static/js/main.6c105346.js",
     "static/media/camp2.png": "/NPTEL/static/media/camp2.d0357c5688c98cfa04ad.png",
     "static/media/camp3.png": "/NPTEL/static/media/camp3.2910a146b0c8b4e39f4c.png",
     "static/media/camp.png": "/NPTEL/static/media/camp.a18d09ce1d567ac897b3.png",
     "index.html": "/NPTEL/index.html",
     "main.b096c5b7.css.map": "/NPTEL/static/css/main.b096c5b7.css.map",
-    "main.f66d2fe8.js.map": "/NPTEL/static/js/main.f66d2fe8.js.map"
+    "main.6c105346.js.map": "/NPTEL/static/js/main.6c105346.js.map"
   },
   "entrypoints": [
     "static/css/main.b096c5b7.css",
-    "static/js/main.f66d2fe8.js"
+    "static/js/main.6c105346.js"
   ]
 }
